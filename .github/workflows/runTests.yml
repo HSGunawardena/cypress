@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Cypress Manual Workflow
+name: Cypress Workflow
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -19,7 +19,7 @@ on:
     #     type: string
   push:
     branches:
-      - "*"
+      '!main'
   pull_request: 
     branches:
       - main
