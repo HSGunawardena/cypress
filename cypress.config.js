@@ -6,6 +6,8 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'https://the-internet.herokuapp.com/',
-    watchForFileChanges: false
+    watchForFileChanges: false,
+    viewportWidth: 1440,
+    viewportHeight: 1080,
   },
 });
