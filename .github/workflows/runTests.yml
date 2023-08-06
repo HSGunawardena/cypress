@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Workflow
+name: Cypress auto and manual workflow
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
