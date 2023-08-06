@@ -17,7 +17,7 @@ on:
     #     required: true
     #     # The data type of the input
     #     type: string
-  [push]
+  push
   pull_request: 
     branches:
       - main
