@@ -9,9 +9,9 @@
   "devDependencies": {},
   "scripts": {
     "setup": "npm i cypress@latest",
-    "cy:open": "npm run cypress open",
-    "cy:run": "npm run cypress run",
-    "cy:run:headed": "npm run cypress run --headed"
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:run:headed": "npx cypress run --headed"
   },
   "author": "Saliya Gunawardena",
   "license": "ISC"
